@@ -1,4 +1,4 @@
-# Classificador de Imagens: Gatos vs Cachorros 🐱🐶
+# Classificador de Imagens: Gatos vs Cães 🐱🐶
 
 Este projeto utiliza redes neurais convolucionais (CNN) para classificar imagens de gatos e cachorros, comparando uma arquitetura criada do zero com uma abordagem de Transfer Learning usando ResNet18 pré-treinada.
 
@@ -6,7 +6,7 @@ Este projeto utiliza redes neurais convolucionais (CNN) para classificar imagens
 
 ## Sobre o Projeto
 
-O objetivo é comparar o desempenho de uma CNN simples, desenvolvida manualmente, com um modelo de Transfer Learning (ResNet18) para o problema de classificação binária de imagens (gatos vs cachorros).
+O objetivo é comparar o desempenho de uma CNN simples, desenvolvida manualmente, com um modelo de Transfer Learning (ResNet18) para o problema de classificação binária de imagens (gatos vs cães).
 
 - **CNN Simples:** Arquitetura customizada, treinada do zero, com ajuste de hiperparâmetros via GridSearchCV.
 - **Transfer Learning:** Utiliza ResNet18 pré-treinada no ImageNet, ajustando apenas a última camada para o problema binário.
